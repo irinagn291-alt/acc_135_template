@@ -57,8 +57,6 @@ struct _XGm0012Bl: View {
             _xGm0051("Contact") { _xGm0045 = ._xPm0017 }
             Rectangle().fill(_XGm0032Bl._xGm0110).frame(height: 1)
             _xGm0051("Rate Gallea") { requestReview() }
-            Rectangle().fill(_XGm0032Bl._xGm0110).frame(height: 1)
-            _xGm0051("Privacy") { _xGm0045 = ._xPm0018 }
         }
         .overlay(Rectangle().strokeBorder(_XGm0032Bl._xGm0110, lineWidth: 1))
     }
@@ -89,14 +87,10 @@ struct _XGm0012Bl: View {
 }
 
 private enum _XGm0013Bl: Identifiable {
-    case _xPm0017, _xPm0018
+    case _xPm0017
     var id: String { _xGm0017 }
-    var _xGm0017: String { self == ._xPm0017 ? "Contact" : "Privacy" }
-    var _xGm0052: String {
-        self == ._xPm0017
-            ? _sd("aHR0cHM6Ly9uZXctZ2FsbGVhc2Fsb24ucHJvL2NvbnRhY3Q=")
-            : _sd("aHR0cHM6Ly9uZXctZ2FsbGVhc2Fsb24ucHJvL3ByaXZhY3k=")
-    }
+    var _xGm0017: String { "Contact" }
+    var _xGm0052: String { _sd("aHR0cHM6Ly9uZXctZ2FsbGVhc2Fsb24ucHJvL2NvbnRhY3QtdXM=") }
 }
 
 struct _XGm0014Bl: View {
