@@ -11,18 +11,9 @@
 		CC04CC04CC04CC04CC04CC04 /* OpenFoodFactsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BB04BB04BB04BB04BB04BB04 /* OpenFoodFactsSDK */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		C01C7EC1B9DFF43BA7EF78EA /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E6C67FB82DBF9741885A334C /* template */ = {
@@ -146,9 +137,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
 		71ED7C53AD3EC7FB9DD50F72 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -221,7 +209,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = template/template.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Gallea;
@@ -252,7 +240,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = template/template.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Gallea;

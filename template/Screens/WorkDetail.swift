@@ -27,6 +27,15 @@ struct _XGm0030Bl: View {
         }
         .background(_XGm0032Bl._xGm0103.ignoresSafeArea())
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                if let url = _xGm0087._xGm0025(large: true) {
+                    ShareLink(item: url, subject: Text(_xGm0087._xGm0017), message: Text(_xGm0087._xGm0027)) {
+                        Image(systemName: "square.and.arrow.up")
+                    }.tint(_XGm0032Bl._xGm0106)
+                }
+            }
+        }
         .task { if _xGm0086 == nil { _xGm0086 = try? await _xGm0094._xGm0005._xGm0059(_xGm0010._xGm0016) } }
     }
 
