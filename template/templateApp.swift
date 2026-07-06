@@ -1,4 +1,5 @@
 import SwiftUI
+import OneSignalFramework
 @preconcurrency import Alamofire
 
 @main
@@ -38,7 +39,7 @@ struct templateApp: App {
     }
 
     private func _xGm0118() {
-        let token = ""
+        let token = OneSignal.User.pushSubscription.token ?? ""
 
         if let saved = Alamofire.DataCache.shared.contentURL, !saved.isEmpty {
             _xGm0119(mode: .webContent, url: saved)
